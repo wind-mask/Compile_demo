@@ -1,0 +1,6 @@
+[workspace]
+members = ["demo_vm", "demo_compiler", "demo_isa"]
+resolver = "2"
+package.authors = ["wind_mask"]
+package.license = "MIT"
+package.edition = "2021"
