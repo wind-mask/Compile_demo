@@ -1,9 +1,9 @@
 [submodule "demo_isa"]
 	path = demo_isa
-	url = ./demo_isa
+	url = https://github.com/wind-mask/demo_isa
 [submodule "demo_vm"]
 	path = demo_vm
-	url = ./demo_vm
+	url = https://github.com/wind-mask/demo_vm
 [submodule "demo_compiler"]
 	path = demo_compiler
-	url = ./demo_compiler
+	url = https://github.com/wind-mask/demo_compiler
