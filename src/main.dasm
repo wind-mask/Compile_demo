@@ -1,0 +1,18 @@
+Push(R0)// addr(x)=bp
+Push(R0)// addr(y)=bp+1
+Push(R0)// addr(z)=bp+2
+M(R1,1)
+M(R16,0)// addr(x)=bp+R16
+StoreS(R1,R16) // x=1
+M(R1,2)
+M(R16,1)// addr(y)=bp+R16   
+StoreS(R1,R16) // y=2
+M(R1,3)
+M(R16,2)// addr(z)=bp+R16
+StoreS(R1,R16) // z=3
+LoadS(R1,0)// R1=x
+LoadS(R2,1)// R2=y
+AddU(R3,R1,R2)// R3=x+y
+StoreS(R3,3)// z=x+y
+
+

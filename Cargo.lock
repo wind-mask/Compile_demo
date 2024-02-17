@@ -160,6 +160,7 @@ dependencies = [
 name = "demo_isa"
 version = "0.1.0"
 dependencies = [
+ "enumflags2",
  "postcard",
  "serde",
 ]

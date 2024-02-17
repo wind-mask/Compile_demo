@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			".\\demo_vm\\Cargo.toml",
+			".\\demo_vm\\Cargo.toml"
+		]
+	}
+}
