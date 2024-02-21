@@ -1,2 +1,4 @@
 [alias]
 t = "test -- --nocapture"
+[build]
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
