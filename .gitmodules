@@ -7,3 +7,6 @@
 [submodule "demo_compiler"]
 	path = demo_compiler
 	url = https://github.com/wind-mask/demo_compiler
+[submodule "demo_interpreter"]
+	path = demo_interpreter
+	url =https://github.com/wind-mask/demo_interpreter

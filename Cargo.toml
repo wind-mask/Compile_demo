@@ -1,5 +1,5 @@
 [workspace]
-members = ["demo_vm", "demo_compiler", "demo_isa"]
+members = ["demo_vm", "demo_compiler", "demo_isa","demo_interpreter"]
 resolver = "2"
 package.authors = ["wind_mask"]
 package.license = "MIT"
